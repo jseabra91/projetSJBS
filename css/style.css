@@ -29,6 +29,7 @@ body {
   overflow: hidden;
   display: flex;
   flex-direction: column;
+  min-height: 650px;
 }
 
 /* Image de l'école */
@@ -58,6 +59,7 @@ body {
 /* Conteneur du formulaire */
 .login-form-container {
   padding: 30px;
+  min-height: 480px;
 }
 
 /* Logo */
@@ -69,6 +71,9 @@ body {
 .logo {
   height: 60px;
   object-fit: contain;
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
 }
 
 /* En-tête du formulaire */
@@ -90,7 +95,7 @@ body {
 
 /* Formulaire */
 .login-form {
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 .form-group {
@@ -192,6 +197,19 @@ body {
 }
 
 .admin-link:hover {
+  color: #2b6cb0;
+  text-decoration: underline;
+}
+
+.forgot-link {
+  color: #3182ce;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.forgot-link:hover {
   color: #2b6cb0;
   text-decoration: underline;
 }
