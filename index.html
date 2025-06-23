@@ -1,22 +1,18 @@
 <!DOCTYPE html>
 <html lang="fr">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Connexion - GDLS</title>
-    <link rel="stylesheet" href="css/style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="img/logo-tran.png">
   </head>
   <body>
     <div class="container">
       <div class="login-card">
+
         <!-- Image de l'école (côté gauche) -->
         <div class="school-image">
           <div class="overlay">
@@ -69,6 +65,8 @@
             <button type="submit" class="login-button">SE CONNECTER</button>
           </form>
 
+          <p><a href="espace_temporaire.html">Espace Administrateur</a></p>
+
           <div class="footer-links">
             <a href="#" class="forgot-link">Mot de passe oublié&nbsp;?</a>
           </div>
@@ -82,21 +80,20 @@
         <span class="close-modal">&times;</span>
         <h2>Mot de passe oublié</h2>
         <form id="reset-form">
-          <label for="reset-email"
-            >Veuillez entrer votre adresse e-mail :</label
-          >
-          <input
-            type="email"
-            id="reset-email"
-            name="reset-email"
-            required
-            placeholder="Votre e-mail"
-          />
+          <label for="reset-email">Veuillez entrer votre adresse e-mail :</label>
+            <input
+              type="email"
+              id="reset-email"
+              name="reset-email"
+              required
+              placeholder="Votre e-mail"
+            />
           <div id="reset-message" class="reset-message"></div>
           <button type="submit" class="login-button">Valider</button>
         </form>
       </div>
     </div>
+
 
     <script src="js/script.js"></script>
   </body>

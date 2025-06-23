@@ -108,6 +108,11 @@ form > input {
   box-shadow: 0 0 0 3px rgba(49, 130, 206, 0.5);
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
 /* Responsive */
 @media (min-width: 768px) {
   .form-card {

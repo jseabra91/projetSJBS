@@ -50,7 +50,7 @@ document.addEventListener("DOMContentLoaded", () => {
       if (identifiant === "admin" && motDePasse === "password") {
         // Connexion réussie
         hideError();
-        window.location.href = "dashboard.html"; // Rediriger vers la page d'accueil
+        window.location.href = "formulaire.html"; // Rediriger vers la page d'accueil
       } else {
         // Échec de la connexion
         showError("Identifiant ou mot de passe incorrect");
