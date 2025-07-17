@@ -35,6 +35,7 @@ body {
 .form-container {
   padding: 30px;
   margin: auto;
+  overflow: scroll;
 }
 
 /* Logo */
@@ -109,7 +110,7 @@ form > input {
 
 a {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 /* Responsive */
