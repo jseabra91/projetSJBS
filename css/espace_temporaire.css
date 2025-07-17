@@ -165,7 +165,7 @@
   /* Conteneur du formulaire */
   .form-container {
     padding: 30px;
-    margin: auto;
+    margin: 30px;
   }
   
   /* Logo */
@@ -228,14 +228,14 @@
 
   a {
     text-decoration: none;
-    color: black;
+    color: white;
   }
   
   /* Responsive */
-  @media (min-width: 768px) {
+  @media (max-width: 768px) {
     .form-card {
       flex-direction: row;
-      height: 500px;
+      width: 50%;
     }
   
     .form-container {
